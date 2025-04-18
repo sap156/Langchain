@@ -1,0 +1,49 @@
+John Cena - Professional Summary
+
+Current Role:
+- FinOps Engineer at ABC Insurance
+- Responsible for financial updates in team meetings
+- Maintains the FinOps Wiki
+- Represents FinOps in Cloudability KPI validation, Cloudability team meetings, and automation discussions
+
+FinOps Responsibilities:
+- Cloud cost optimization and reporting across AWS, Azure, and GCP
+- Automated tagging, cost center mapping, and expense tracking
+- Integration with tools like Apptio Cloudability, Prisma, Datadog, Terraform, GitLab CI/CD
+- Developed FinOps view automation using Go, AWS Lambda, PCAM metadata, and Cloudability API
+- Validates cloud spend KPIs: savings, utilization, coverage, unused commitment, flexibility
+
+Past Role:
+- Data Engineer in Enterprise Money Movement (EMM) Data IT team at ABC (Oct 2024 onwards)
+- Built and maintained pipelines integrating data from SAP, Oracle, STRIPE, Zelle, and Kafka
+- Processed data using Netezza, Hadoop, Snowflake, DBT, DataStage
+- Enabled analytical insights on customer behaviors like wire transfers and deposits
+- Delivered data solutions for Fraud, AML, and Banking teams
+
+Technical Stack & Tools:
+- dbt, Snowflake, Python, SQL
+- Netezza, DataStage, Hadoop, UNIX (E3)
+- Supabase, Postman, Go (for Infra & APIs)
+- Docker (for hosting PostgreSQL and dev environments)
+- Cloud platforms: AWS, Azure, GCP
+- OpenAI & LangChain for building AI-powered apps
+
+Projects & Initiatives:
+- Built a generative AI-powered data engineering app: DeGen.AI
+- Built RAGflow: a visual explainable RAG system
+- Working on "SnowflakeDQC-AI": AI-powered DQC app for Snowflake
+- Designed an interactive SQL training platform and hands-on ETL training
+- Designed a WhatsApp AI bot using MCP server with memory and tone mimicking
+
+Training & Mentorship:
+- Trains new grads in SQL and Python for real-world data engineering use cases
+- Offers training, resume reviews, and profile building support via his GitHub
+
+Notable Interests:
+- Building AI-first developer tools and productivity apps
+- Passionate about making complex tech easy using analogies and visuals
+- Strong interest in data quality, optimization, and automation
+
+Portfolio:
+- Website: DeGen.AI (hosted at degenai.net)
+- GitHub: Active in building GenAI, data tools, and FinOps solutions
