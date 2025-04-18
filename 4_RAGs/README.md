@@ -28,7 +28,7 @@ Embeddings are numerical representations of text that:
 - Preserve relationships between similar concepts
 - Enable efficient document retrieval
 
-More on Vector Databases and Embeddings Explained Simply :(https://medium.com/gopenai/vector-databases-and-embeddings-explained-like-youre-15-5d23879fea05)
+[More on Vector Databases and Embeddings Explained Simply](https://medium.com/gopenai/vector-databases-and-embeddings-explained-like-youre-15-5d23879fea05)
 
 ## Files Structure
 
