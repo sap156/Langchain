@@ -7,8 +7,8 @@ from langchain_openai import ChatOpenAI  # For interacting with OpenAI's chat mo
 # Load environment variables (including OPENAI_API_KEY)
 load_dotenv()
 
-# Initialize the ChatOpenAI model with GPT-4
-model = ChatOpenAI(model="gpt-4o")
+# Initialize the ChatOpenAI model with GPT-3.5 Turbo
+model = ChatOpenAI(model="gpt-3.5-turbo")
 
 # Define prompt templates using ChatPromptTemplate
 # Creates a structured format for prompts with variable placeholders
@@ -38,7 +38,7 @@ chain = RunnableSequence(
 )
 
 # Execute the chain with specific input values
-response = chain.invoke({"animal": "cat", "count": 2})
+response = chain.invoke({"animal": "elephant", "count": 2})
 
 # Display the final result
 print(response)

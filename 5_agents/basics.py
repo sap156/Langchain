@@ -19,11 +19,11 @@ def get_system_time(format: str = "%Y-%m-%d %H:%M:%S"):
     formatted_time = current_time.strftime(format)
     return formatted_time
 
-# Initialize the language model with GPT-4o
-llm = ChatOpenAI(model="gpt-4o")
+# Initialize the language model with gpt-3.5-turbo
+llm = ChatOpenAI(model="gpt-3.5-turbo")
 
 # Define the query to be processed by the agent
-query = "What is the current time in London? (You are in Central USA). Just show the current time and not the date"
+query = "What is the current time in India? (You are in Central USA). Just show the current time and not the date"
 
 # Pull the ReAct prompt template from LangChain's hub
 # This template provides the structure for the agent's reasoning process

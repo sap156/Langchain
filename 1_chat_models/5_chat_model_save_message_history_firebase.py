@@ -6,9 +6,9 @@ from langchain_openai import ChatOpenAI  # For interacting with OpenAI's chat mo
 
 """
 Steps to replicate this example:
-1. Create a Firebase account
+1. Create a Google Firebase account
 2. Create a new Firebase project and FireStore Database
-3. Retrieve the Project ID
+3. Retrieve the Project ID from the Firebase Console
 4. Install the Google Cloud CLI on your computer
     - https://cloud.google.com/sdk/docs/install
     - Authenticate the Google Cloud CLI with your Google account
@@ -23,7 +23,7 @@ Steps to replicate this example:
 load_dotenv()
 
 # Setup Firebase Firestore configuration
-PROJECT_ID = "langchain-a5989"  # Your Firebase project ID
+PROJECT_ID = "langchain-XXXX"  # Your Firebase project ID
 SESSION_ID = "user_session_new"  # Unique identifier for the chat session
 COLLECTION_NAME = "chat_history"  # Firestore collection name for storing messages
 

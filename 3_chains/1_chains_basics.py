@@ -7,8 +7,8 @@ from langchain_openai import ChatOpenAI  # For interacting with OpenAI's chat mo
 # Load environment variables (including OPENAI_API_KEY) from .env file
 load_dotenv()
 
-# Initialize the ChatOpenAI model with GPT-4
-model = ChatOpenAI(model="gpt-4o")
+# Initialize the ChatOpenAI model with GPT-3.5 Turbo
+model = ChatOpenAI(model="gpt-3.5-turbo")
 
 # Define prompt templates using ChatPromptTemplate
 # This creates a structured format for our prompts with variable placeholders
@@ -25,12 +25,12 @@ prompt_template = ChatPromptTemplate.from_messages(
 # The | operator creates a sequential chain where:
 # 1. prompt_template formats the input
 # 2. model generates the response
-# 3. StrOutputParser converts the response to a string
+# 3. StrOutputParser parses the output as a string 
 chain = prompt_template | model | StrOutputParser()
 # Alternative without string parsing: chain = prompt_template | model
 
 # Execute the chain with specific input values
-result = chain.invoke({"animal": "elephant", "fact_count": 1})
+result = chain.invoke({"animal": "dog", "fact_count": 1})
 
 # Display the result
 print(result)

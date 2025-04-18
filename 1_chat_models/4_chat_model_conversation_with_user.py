@@ -6,8 +6,8 @@ from langchain.schema import AIMessage, HumanMessage, SystemMessage  # Message t
 # Load environment variables (including OPENAI_API_KEY)
 load_dotenv()
 
-# Initialize the ChatOpenAI model with GPT-4
-model = ChatOpenAI(model="gpt-4")
+# Initialize the ChatOpenAI model with GPT-3.5 Turbo
+model = ChatOpenAI(model="gpt-3.5-turbo")
 
 # Initialize an empty list to store the conversation history
 chat_history = []  # This will maintain the order of messages between human and AI
