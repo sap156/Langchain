@@ -1,0 +1,23 @@
+# Core LangChain packages
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+langchain-google-firestore>=0.0.1
+langchain-anthropic>=0.0.1
+langchain-google-genai>=0.0.3
+langchain-chromadb>=0.0.1
+langchain_community>=0.0.1
+
+# Vector store and embeddings
+chromadb>=0.4.22
+
+
+# AI Model Providers
+openai>=1.12.0
+anthropic>=0.7.0
+google-cloud-aiplatform>=1.36.4
+
+# Other dependencies
+dotenv>=1.0.0
+os >=0.1.2
