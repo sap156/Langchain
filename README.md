@@ -1,5 +1,7 @@
 # LangChain Tutorial
 
+![1726986580936](https://github.com/user-attachments/assets/e8ebe93e-b003-4702-a2e2-bcc34ac7ceb7)
+
 ## What is LangChain?
 LangChain is a framework for developing applications powered by language models. It provides:
 - Unified interface to various LLMs (GPT-4, Claude, etc.)
