@@ -147,12 +147,6 @@ agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 - Goal setting
 - Progress tracking
 
-## Best Practices
-1. Define clear tool descriptions
-2. Implement proper error handling
-3. Use appropriate agent type for task
-4. Monitor token usage
-5. Test agent behavior thoroughly
 
 ## Example Usage
 
@@ -179,12 +173,6 @@ tools = load_tools(["wikipedia", "python_repl"])
 agent = create_react_agent(llm, tools, prompt_template)
 ```
 
-## Common Use Cases
-1. Task automation
-2. Information gathering
-3. Data analysis
-4. Content generation
-5. Problem-solving
 
 ## Debugging Tips
 - Use `verbose=True` for detailed logging
