@@ -1,4 +1,4 @@
-# LangChain Tutorial
+# LangChain Essentials
 
 ![1726986580936](https://github.com/user-attachments/assets/e8ebe93e-b003-4702-a2e2-bcc34ac7ceb7)
 
